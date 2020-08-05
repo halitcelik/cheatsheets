@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ubuntu Commands</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="sysadmin_commands.html">Sysadmin</a>
+                    <a href="useful_ubuntu_commands.html">Ubuntu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="command">
+        <p class="definition">
+            PDF tool, I use for splitting pages but theree are other usages as well
+        </p>
+        <p class="usage">
+            pdftk [original file name] cat [starting_page_number - finish_page_number] output [output_file_name].pdf
+        </p>
+        <span class="example">
+            pdftk full-pdf.pdf cat 12-15 output outfile_p12-15.pdf
+        </span>
+    </div>
+</body>
+</html>

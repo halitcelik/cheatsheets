@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ubuntu Commands</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="sysadmin_commands.html">Sysadmin</a>
+                    <a href="useful_ubuntu_commands.html">Ubuntu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="command">
+        <p class="definition">
+            Creating a working admin account
+        </p>
+        <p class="usage">
+            Create an ordinary user account, but one with the power to "become root" as necessary, like this:
+        </p>
+        <div class="example">
+            <p>sudo adduser halit</p>
+            <p>sudo usermod -a -G adm halit</p>
+            <p>sudo usermod -a -G sudo halit</p>
+        </div>
+    </div>
+</body>
+</html>
